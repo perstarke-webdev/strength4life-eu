@@ -2,7 +2,7 @@
 title: "Life & Mind Coaching"
 permalink: /coaching-for-individuals/life-mind-coaching/
 header:
-  overlay_image: /test.webp 
+  overlay_image: /assets/images/life-changing-events-real-difference.webp 
 ---
 
 # Life & Mind Coaching

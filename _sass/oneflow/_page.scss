@@ -169,8 +169,8 @@ text-align: center;
   }
 }
 
-.page__hero {
-
+.page__hero,
+.page__hero--overlay {
   position: relative;
   margin-bottom: 2em;
   @include clearfix;
@@ -179,57 +179,60 @@ text-align: center;
   -webkit-animation-delay: 0.25s;
   animation-delay: 0.25s;
 
-  &--overlay {
-    position: relative;
-    margin-bottom: 2em;
-    padding: 3em 0;
-    @include clearfix;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    -webkit-animation: $intro-transition;
-    animation: $intro-transition;
-    -webkit-animation-delay: 0.25s;
-    animation-delay: 0.25s;
+  width: 100%;
+  height: auto;
+  padding-top: 33.333%;   // 3:1 ratio desktop
+  background-size: cover;
+  background-position: left center;
 
-    a {
-      color: #fff;
+  a {
+    color: #fff;
+  }
+
+  .wrapper {
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-left: 1em;
+    padding-right: 1em;
+
+    @include breakpoint($x-large) {
+      max-width: $x-large;
+      margin: 0 auto;
     }
+  }
 
-    .wrapper {
-      padding-left: 1em;
-      padding-right: 1em;
+  .page__title,
+  .page__meta,
+  .page__lead,
+  .btn {
+    color: #fff;
+    text-shadow: 1px 1px 4px rgba(#000, 0.5);
+    text-align: center;
+  }
 
-      @include breakpoint($x-large) {
-        max-width: $x-large;
-      }
-    }
+  .page__title {
+    font-size: $type-size-2;
 
-    .page__title,
-    .page__meta,
-    .page__lead,
-    .btn {
-      color: #fff;
-      text-shadow: 1px 1px 4px rgba(#000, 0.5);
-      text-align: center;
-    }
-
-    .page__title {
-      font-size: $type-size-2;
-
-      @include breakpoint($small) {
-        font-size: $type-size-1;
-      }
+    @include breakpoint($small) {
+      font-size: $type-size-1;
     }
   }
 }
 
+/* Hero image fallback (non-overlay) */
 .page__hero-image {
   width: 100%;
   height: auto;
   -ms-interpolation-mode: bicubic;
 }
 
+/* Hero caption */
 .page__hero-caption {
   position: absolute;
   bottom: 0;
@@ -254,6 +257,30 @@ text-align: center;
     text-decoration: none;
   }
 }
+
+/* Mobile ratio */
+@media (max-width: 768px) {
+  .page__hero,
+  .page__hero--overlay {
+    padding-top: 50%;    // 2:1 ratio
+    background-position: left center;
+  }
+}
+
+
+
+.sr-only {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 
 
 /*

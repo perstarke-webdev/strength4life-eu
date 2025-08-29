@@ -2,7 +2,7 @@
 title: "Coaching for Individuals"
 permalink: /coaching-for-individuals/
 header:
-  overlay_image: /test.webp 
+  overlay_image: /assets/images/life-changing-events-real-difference.webp 
 ---
 
 # Coaching for Individuals

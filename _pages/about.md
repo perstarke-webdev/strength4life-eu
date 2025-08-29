@@ -2,7 +2,7 @@
 title: "About"
 permalink: /about/
 header:
-  overlay_image: /test.webp
+  overlay_image: /assets/images/motorbike.webp
 ---
 
 # About Us
