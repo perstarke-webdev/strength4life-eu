@@ -172,6 +172,7 @@ text-align: center;
 .page__hero,
 .page__hero--overlay {
   position: relative;
+  margin-top: 6em; /* Added to push content below non-sticky navbar */
   margin-bottom: 2em;
   @include clearfix;
   -webkit-animation: $intro-transition;
