@@ -7,4 +7,7 @@ header:
 
 # Coaching for Individuals
 
-Content coming soon.
+Here you can find more information about our individual coaching offers:
+
+- [Life & Mind Coaching](/coaching-for-individuals/life-mind-coaching/)
+- [Travel4Life](/coaching-for-individuals/travel4life/)
