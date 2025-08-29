@@ -305,3 +305,25 @@ body:hover .visually-hidden button {
         order: -1;
     }
 }
+
+.text-red {
+  color: #B3282D;
+}
+
+.text-purple {
+  color: #430098;
+}
+
+.highlight-red {
+  background-color: #B3282D;
+  color: #fff;
+  padding: 0.2em 0.4em;
+  border-radius: 0.25em;
+}
+
+.highlight-purple {
+  background-color: #430098;
+  color: #fff;
+  padding: 0.2em 0.4em;
+  border-radius: 0.25em;
+}

@@ -45,7 +45,7 @@
   .fab,
   .far,
   .fal {
-    color: $muted-text-color;
+    color: #B3282D;
   }
 }
 
@@ -101,19 +101,23 @@
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: $primary-color;
+  background: #B3282D;
   font-size: 24px;
   line-height: 50px;
   text-align: center;
   transition: background-color 0.3s ease;
 
   &:hover {
-    background: $link-color;
+    background: mix(#B3282D, #430098, 50%);
+  }
+
+  &:hover .footer-icon {
+    color: #B3282D !important;
   }
 }
 
 .footer-icon {
-  color: $footer-background-color !important;
+  color: #430098 !important;
   position: absolute;
   top: 50%;
   left: 50%;
