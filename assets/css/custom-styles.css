@@ -1,1 +1,23 @@
 /* Custom stylesheet, add your own styles here */
+
+.cookie-reopen-btn {
+    position: fixed;
+        bottom: 20px;
+    right: 20px;
+    background-color: #333333; /* Dark Grey */
+    color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    z-index: 1000;
+    display: none; /* Hidden by default, shown by JS */
+}
+
+.cookie-reopen-btn:hover {
+    background-color: #B3282D; /* Red */
+}
