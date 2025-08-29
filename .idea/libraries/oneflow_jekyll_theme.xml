@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="oneflow-jekyll-theme">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/theme-download/oneflow-jekyll-theme.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
