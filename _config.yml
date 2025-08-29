@@ -37,20 +37,20 @@ footer:
     - label: "Email"
       icon: "fa fa-envelope"
       url: "mailto: jon@strength4life.eu"
+    - label: "Facebook"
+      icon: "fab fa-facebook"
+      url: "https://www.facebook.com/strength4lifeau/"
+    - label: "Instagram"
+      icon: "fab fa-instagram"
+      url: "https://www.instagram.com/strength4lifeaustralia/"
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
       url: #
     - label: "X/Twitter"
       icon: "fab fa-x-twitter"
       url: #
-    - label: "Facebook"
-      icon: "fab fa-facebook"
-      url: #
     - label: "GitHub"
       icon: "fab fa-github"
-      url: #
-    - label: "Instagram"
-      icon: "fab fa-instagram"
       url: #
     - label: "YouTube"
       icon: "fab fa-youtube"
@@ -58,7 +58,7 @@ footer:
     - label: "Dev"
       icon: "fab fa-dev"
       url: #
-  copyright: "Per Starke Web Development" # Replace with your own
+  copyright: "Jonathan Evans" # Replace with your own
   creator: # Replace with your own creator name or remove this if you don't want any "created by" in the footer
       name: "Per Starke Web Development"
       url: "https://perstarke-webdev.de"
