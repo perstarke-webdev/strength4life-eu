@@ -384,3 +384,65 @@
 .about-qualifications li {
     margin-bottom: 0.5rem;
 }
+
+
+
+
+
+/* Coaching for Individuals (centered layout) */
+.indiv { text-align: center; }
+
+.indiv-list {
+    display: inline-block;
+    text-align: left;
+    margin: 1rem auto;
+    padding: 0;
+    line-height: 1.6;
+}
+.indiv-list li { margin: 0.25rem 0; }
+
+/* Center images */
+.indiv-media {
+    margin: 2rem auto;
+    text-align: center;
+}
+.indiv-media img {
+    max-width: 700px;
+    width: 100%;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Testimonial quote (red sideline) */
+.indiv-quote-red {
+    margin: 1.5rem 0;
+    padding-left: 1rem;
+    border-left: 4px solid #b3282d;
+    font-style: italic;
+    line-height: 1.6;
+}
+
+/* Closing CTA (red box) */
+.indiv-closing {
+    background: #b3282d;
+    color: #fff;
+    padding: 1.25rem 1rem;
+    border-radius: 6px;
+    text-align: center;
+    font-style: italic;
+}
+.indiv-closing a { margin-top: 0.75rem; display: inline-block; font-style: normal; }
+
+
+/* Center lightbox images as well */
+.indiv-media a {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.indiv-media a img {
+    display: block;
+    margin: 0 auto;
+}
