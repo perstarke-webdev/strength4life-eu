@@ -21,3 +21,49 @@
 .cookie-reopen-btn:hover {
     background-color: #B3282D; /* Red */
 }
+
+/* Hero Tagline */
+#hero-section .page__lead {
+    font-size: 2em;
+    font-weight: bold;
+    color: #430098; /* Brand Purple */
+}
+
+/* Body Mind Heart Spirit emphasis */
+#what-strength4life-is .page__lead {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* Testimonial Quotes */
+.testimonial-quote {
+    border-left: 5px solid #B3282D; /* Brand Red */
+    background-color: rgba(179, 40, 45, 0.05); /* Light Red */
+    padding: 1em;
+    margin-bottom: 1em;
+    font-style: italic;
+}
+
+/* Image Container (Rectangular) */
+.image-container {
+    width: 100%;
+    max-width: 400px; /* Limit width */
+    margin: 20px auto; /* Center and add vertical margin */
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#about-me-teaser p {
+    margin-bottom: 0.5em; /* Reduce space between paragraphs */
+}
+
+#about-me-teaser .btn {
+    margin-top: 0.5em; /* Reduce space above button */
+}

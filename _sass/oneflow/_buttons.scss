@@ -10,6 +10,7 @@
   /* default */
   display: inline-block;
   margin-bottom: 0.25em;
+  margin-top: 1em; /* Added margin-top */
   padding: 0.5em 1em;
   font-family: $sans-serif;
   font-size: $type-size-6;
@@ -95,10 +96,10 @@
 }
 
 .btn--secondary {
-  background-color: #f0f0f0; /* A light grey, assuming this is the default secondary color */
-  color: #333; /* Dark text for contrast */
+  background-color: #B3282D; /* Brand Red */
+  color: #fff !important; /* White text for contrast */
 
   &:hover {
-    background-color: mix(#000, #f0f0f0, 10%); /* Slightly darker on hover */
+    background-color: mix(#000, #B3282D, 10%); /* Slightly darker on hover */
   }
 }
