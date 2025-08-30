@@ -6,74 +6,88 @@ header:
   overlay_image: /assets/images/life-changing-events-real-difference.webp 
 ---
 
-<section class="site-section first-section" id="section-1">
-    <h1 class="home-heading"><span class="text-red">BE</span> THE BEST <span class="text-red"><br class="mobile-break">YOU</span> CAN BE</h1>
-    <h3 class="home-subheading">– Meet Jon: Life Coach • Enabler • Management Consultant –</h3>
+<h1 class="home-heading">
+    <span class="text-red">BE</span> THE BEST <span class="text-red"><br class="mobile-break">YOU</span> CAN BE
+</h1>
+<h3 class="home-subheading">– Meet Jon: Life Coach • Enabler • Management Consultant –</h3>
 
-    <div class="testimonial-div">
-        <p class="testimonial">
-            “Life changing – both professional &amp; personal.”
+<div class="testimonial-div">
+    <p class="testimonial">
+        “Life changing – both professional &amp; personal.”
+    </p>
+    <a href="#" class="btn btn--primary" id="toggle-testimonials" aria-expanded="false" aria-controls="s4l-testimonials-more">
+        Read more client voices
+    </a>
+
+    <div id="s4l-testimonials-more" class="s4l-more" hidden>
+        <blockquote>“The experience has given me the opportunity to pull myself to pieces and rebuild / re-assess myself in a safe, supportive space.”</blockquote>
+        <blockquote>“Thank you Jon — your program made a huge impact! I’m now doing what makes me and the people I care about happy. I’m looking after myself better and leading a much healthier work/life balance.”</blockquote>
+        <blockquote>“Informative and very helpful… how body, mind, heart and spirit relates to the daily life we live in.”</blockquote>
+        <blockquote>“The time I spent with Jon has given me the courage and self-belief to step outside my comfort zone and try new things.”</blockquote>
+        <blockquote>“The self-reflection sessions have been very meaningful in both a professional and personal level.”</blockquote>
+        <blockquote>“From the basics to the deep stuff – it made me examine, find and be my authentic self – amidst a very crappy year personally – it really did give me some strength for my life.”</blockquote>
+        <blockquote>“Thank you for everything that you have provided over the course. I have learnt so much!”</blockquote>
+        <blockquote>“Thank you! I appreciate everything! I have learnt so much about myself. Jon and Strength4Life supported me through a tough year. GREAT TIMING! I am looking forward to continuing the journey.”</blockquote>
+        <blockquote>“Helped me increase my EI – Emotional Intelligence and to feel stronger.”</blockquote>
+        <blockquote>“Created a number of friendships and also potential employment. I have learnt the difference between leading and managing.”</blockquote>
+        <blockquote>“I’ve learnt to have faith in my own abilities and to be more confident to ‘try’! I’ve also learnt more about dealing with difficult situations through resilience and personal strength.”</blockquote>
+        <blockquote>“This program has made me rethink my work / life balance.”</blockquote>
+        <blockquote>“Jon and Strength 4 Life has motivated and inspired me to be more ‘aware’ of me! The fantastic structure of pillars always gives me a ‘checkpoint of in balance’. Reflection and awareness of where I’m at and where I’m going is a major benefit of learning from the master trainer, Jon. Many thanks for being an INFLUENTIAL part of my life!!”</blockquote>
+        <blockquote>“Jon, you gave me the opportunity to truly reflect on who I am and who I want to be. It has empowered me to take an essential step toward the leader I want to be.”</blockquote>
+        <blockquote>“This has given me reassurance, ability to stand back &amp; assess. Ability to give myself permission to do so.”</blockquote>
+        <blockquote>“I feel that I still need to strip some layers and with the information received I now have the tools to do this.”</blockquote>
+        <blockquote>“Delivered at the right time, at the right place for me.”</blockquote>
+        <blockquote>“Wake up call. Message needed to be heard.”</blockquote>
+        <blockquote>“…the mixture of training methods allow me to absorb and be engaged.”</blockquote>
+        <blockquote>“…overall I gained something from all the courses.”</blockquote>
+        <blockquote>“…I can never learn enough!”</blockquote>
+        <blockquote>“…those that I did attend made me reflect and look within.”</blockquote>
+        <blockquote>“Great content and engaging.”</blockquote>
+        <blockquote>“…gave me the motivation to broaden my thoughts especially in relation to professional aspects and theories.”</blockquote>
+        <blockquote>“The workshop has made me focus on my health and wellbeing.”</blockquote>
+        <blockquote>“These sessions helped me a lot, I was going through some tough times and the opportunity to speak openly… he listened to help me to process what was happening.”</blockquote>
+        <blockquote>“Helpful, not slow and dull, insightful and well paced.”</blockquote>
+        <blockquote>“I liked that it made me think about how I was relating what I had learnt to what I do in my workplace.”</blockquote>
+        <blockquote>“I think it has made me into a better employee.”</blockquote>
+        <blockquote>“I have gained confidence and decreased my level of stress. I have been opened up to opposing perspectives which is a positive way to make changes in my life.”</blockquote>
+        <blockquote>“This course has given me the necessary skills and support to feel more confident with my work which filters down to my staff and the general work environment.”</blockquote>
+    </div>
+</div>
+
+<script>
+    (function () {
+        var btn = document.getElementById('toggle-testimonials');
+        var more = document.getElementById('s4l-testimonials-more');
+        if (!btn || !more) return;
+
+        btn.addEventListener('click', function (e) {
+            e.preventDefault();
+            var isHidden = more.hasAttribute('hidden');
+            if (isHidden) {
+                more.removeAttribute('hidden');
+                btn.setAttribute('aria-expanded', 'true');
+                btn.textContent = 'Hide client voices';
+            } else {
+                more.setAttribute('hidden', '');
+                btn.setAttribute('aria-expanded', 'false');
+                btn.textContent = 'Read more client voices';
+            }
+        });
+    })();
+</script>
+
+
+
+<div class="german-intro-container">
+    <div class="german-intro-image"></div>
+    <div class="german-intro-box">
+        <h2>🇩🇪 Willkommen bei Strength4Life</h2>
+        <p>
+            Ich bin Jon – Life Coach, Enabler, Management Consultant.
+            Hier findest du Coaching- und Beratungsangebote für Einzelpersonen und Unternehmen.
+            Auch wenn die Seite auf Englisch ist, möchte ich dir hier schon kurz sagen:
+            Mit Strength4Life unterstütze ich dich dabei, dein bestes Selbst zu leben –
+            in deinem Alltag, in deinem Beruf, in deinem Leben.
         </p>
-        <a href="#" class="btn btn--primary">Read more client voices</a>
     </div>
-
-
-    <div class="german-intro-container">
-        <div class="german-intro-image"></div>
-        <div class="german-intro-box">
-            <h2>🇩🇪 Willkommen bei Strength4Life</h2>
-            <p>
-                Ich bin Jon – Life Coach, Enabler, Management Consultant.
-                Hier findest du Coaching- und Beratungsangebote für Einzelpersonen und Unternehmen.
-                Auch wenn die Seite auf Englisch ist, möchte ich dir hier schon kurz sagen:
-                Mit Strength4Life unterstütze ich dich dabei, dein bestes Selbst zu leben –
-                in deinem Alltag, in deinem Beruf, in deinem Leben.
-            </p>
-        </div>
-    </div>
-
-
-    <br><br><br><br>
-    <h2>CSS Class Examples:</h2>
-    <p>This is a <span class="text-red">sample text in red</span>.</p>
-    <p>This is a <span class="text-purple">sample text in purple</span>.</p>
-    <p>This is a <span class="highlight-red">sample text with red highlight</span>.</p>
-    <p>This is a <span class="highlight-purple">sample text with purple highlight</span>.</p>
-
-    <h2>Image Container Example:</h2>
-    <div class="image-container" style="max-width: 200px;">
-        <img src="/assets/images/jon.webp" alt="Example Image">
-    </div>
-
-    <h2>Box Examples:</h2>
-    <div class="box-container">
-        <div class="box box-half">
-            <h3>Half Box</h3>
-            <p>This is a half-width box with default styling.</p>
-        </div>
-        <div class="box box-half box--primary">
-            <h3>Primary Box</h3>
-            <p>This is a half-width box with primary brand color border.</p>
-        </div>
-    </div>
-    <div class="box-container">
-        <div class="box box-third testimonial-quote">
-            <h3>Testimonial Box</h3>
-            <p>This box uses testimonial quote styling.</p>
-        </div>
-        <div class="box box-third">
-            <h3>Third Box 1</h3>
-            <p>This is a third-width box.</p>
-        </div>
-        <div class="box box-third">
-            <h3>Third Box 2</h3>
-            <p>This is another third-width box.</p>
-        </div>
-    </div>
-
-    <h2>Emphasis Example:</h2>
-    <p>This is an example of <span class="page__lead text-purple">Body • Mind • Heart • Spirit</span> emphasis.</p>
-
-    <h2>Section Styling:</h2>
-    <p>Sections can alternate colors using the <code>alternative-color</code> class on the <code>site-section</code> element.</p>
-</section>
+</div>

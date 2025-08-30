@@ -139,3 +139,11 @@
         display: inline;
     }
 }
+
+.s4l-more {
+    margin-top:1.5rem;
+    text-align:left;
+    max-width:800px;
+    margin-left:auto;
+    margin-right:auto;
+}
