@@ -352,26 +352,37 @@
 
 
 
-/* About gallery - fixed 3 per row */
 .about-gallery {
-    display: flex;
-    justify-content: center;
-    gap: 1rem; /* spacing between images */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 in a row */
+    gap: 1rem;
 }
 
 .about-gallery figure {
-    flex: 1 1 0;
-    aspect-ratio: 1 / 1; /* force squares */
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1 / 1;  /* perfect square container */
     overflow: hidden;
+    border-radius: 8px;
+}
+
+.about-gallery a,
+.about-gallery img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
 }
 
 .about-gallery img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* crop neatly */
+    object-fit: cover; /* crop neatly into square */
     border-radius: 8px;
-    display: block;
 }
+
+
+
 
 
 /* Remove bullets only for qualifications list */
@@ -526,3 +537,24 @@
     display: inline-block;
 }
 
+
+
+
+/* Travel4Life page styles */
+
+
+/* Highlights list */
+.travel-highlights {
+    list-style: none;
+    padding: 0;
+    margin: 1.5rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.travel-highlights li {
+    background: #f7f7f7;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-weight: 600;
+}
