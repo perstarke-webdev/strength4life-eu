@@ -446,3 +446,44 @@
     display: block;
     margin: 0 auto;
 }
+
+
+
+/* Contact page form styling */
+.contact-form {
+    max-width: 600px;
+    margin: 2rem auto;
+    text-align: left;
+}
+
+.contact-form .form-row {
+    margin-bottom: 1.25rem;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-family: inherit;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #b3282d; /* brand red */
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(179, 40, 45, 0.2);
+}
+
+.contact-form button {
+    display: inline-block;
+    margin-top: 1rem;
+}
