@@ -147,3 +147,76 @@
     margin-left:auto;
     margin-right:auto;
 }
+
+
+
+.short-bio {
+    max-width: 800px;
+    margin: 3rem auto;
+    font-size: 1.1em;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.short-bio p {
+    margin-bottom: 1.2em;
+}
+
+
+
+
+/* Force headings in purple section to white */
+.alternative-color .approach h1,
+.alternative-color .approach h2,
+.alternative-color .approach h3 {
+    color: #fff;
+}
+
+.approach ul {
+    margin: 0 0 1.5rem 1.25rem;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Blockquotes styling */
+.approach blockquote {
+    margin: 1.5rem 0;
+    padding-left: 1rem;
+    border-left: 4px solid rgba(255,255,255,0.4);
+    font-style: italic;
+    line-height: 1.6;
+    max-width: 700px;
+}
+
+/* All images left-aligned with same style */
+.approach-media {
+    margin: 2rem 0;
+}
+.approach-media img {
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 0; /* remove auto-centering */
+}
+
+.pillars-highlight {
+    color: #b3282d;
+    font-weight: 700;
+    font-size: 1.3em;
+    letter-spacing: 0.5px;
+}
+
+.approach-media a {
+    display: inline-block;
+    margin: 0;
+}
+
+/* Reset alignment inside approach section */
+.approach {
+    text-align: left;
+}
+
+
+
