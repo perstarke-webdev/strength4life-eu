@@ -558,3 +558,25 @@
     border-radius: 4px;
     font-weight: 600;
 }
+
+
+
+
+/* Three-column box layout for indiv levels */
+.box-third {
+    flex: 1 1 30%;
+    margin: 0.5rem;
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1.5rem 0;
+}
+
+@media (max-width: 768px) {
+    .box-third {
+        flex: 1 1 100%;
+    }
+}
