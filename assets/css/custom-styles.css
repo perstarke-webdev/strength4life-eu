@@ -67,3 +67,44 @@
 #about-me-teaser .btn {
     margin-top: 0.5em; /* Reduce space above button */
 }
+
+
+
+
+
+
+
+.german-intro-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2.5em 0;
+}
+
+.german-intro-image {
+    flex: 1 1 50%;
+    background: url('/assets/images/jon.webp') center center / cover no-repeat;
+}
+
+.german-intro-box {
+    flex: 1 1 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em;
+    background: #f9f9f9; /* light background for box */
+}
+
+.german-intro-box h2 {
+    margin-top: 0;
+}
+
+@media (max-width: 768px) {
+    .german-intro-container {
+        flex-direction: column;
+    }
+    .german-intro-image,
+    .german-intro-box {
+        flex: 1 1 100%;
+        min-height: 250px; /* keep image visible on mobile */
+    }
+}
