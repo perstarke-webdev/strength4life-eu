@@ -403,11 +403,11 @@
 
 /* Center images */
 .indiv-media {
-    margin: 2rem auto;
+    margin: 0.5rem auto;
     text-align: center;
 }
 .indiv-media img {
-    max-width: 700px;
+    max-width: 1000px;
     width: 100%;
     border-radius: 8px;
     display: block;
@@ -487,3 +487,42 @@
     display: inline-block;
     margin-top: 1rem;
 }
+
+
+
+
+/* Business page styles */
+.business blockquote {
+    margin: 1.5rem 0;
+    padding-left: 1rem;
+    border-left: 4px solid #6a1b9a;
+    font-style: italic;
+    line-height: 1.6;
+}
+
+.business-quote-red {
+    border-left-color: #b3282d;
+}
+
+.business-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.business-list li {
+    margin: 0.25rem 0;
+}
+
+.business-closing {
+    background: #b3282d;
+    color: #fff;
+    padding: 1.25rem 1rem;
+    border-radius: 6px;
+    text-align: center;
+    font-style: italic;
+}
+.business-closing a {
+    margin-top: 0.75rem;
+    display: inline-block;
+}
+
