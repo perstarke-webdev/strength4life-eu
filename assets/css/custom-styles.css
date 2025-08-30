@@ -108,3 +108,34 @@
         min-height: 250px; /* keep image visible on mobile */
     }
 }
+
+
+.home-heading {
+    font-size: 260%
+}
+
+.home-subheading {
+    margin-top: -10px
+}
+
+.testimonial-div {
+    text-align:center;
+    margin:2.5em 0;
+}
+
+.testimonial {
+    font-size:1.2em;
+    font-style:italic;
+    margin-bottom:0
+}
+
+
+.mobile-break {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .mobile-break {
+        display: inline;
+    }
+}
